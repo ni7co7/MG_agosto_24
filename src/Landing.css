@@ -1,0 +1,221 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   width: 100%;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+   
+}
+
+.landing >div {
+  
+    background-color:#302929;
+ /* padding: 1.9rem; */
+ /*  */
+ /* margin: 1.7rem; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.landing >div img{
+  width: 50px;
+}
+.landing >div h1,h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin: .9rem;
+    padding: .8rem;
+    
+}
+.landing_text h1 {
+   display: flex;
+   flex-direction: row;
+   /* justify-content: center; */
+   align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.2rem;
+    margin: .8rem;
+    padding: .2rem;
+    color: #3de1f0;
+    font-weight: lighter;
+ /*    color: #83c2a5; */
+
+     /* color: #f3c8da; */
+   /*  text-shadow: rgb(206, 130, 182) 1px 0 10px; */
+}
+.hero-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  border: #ffffff 2px solid;
+  border-left:none ;
+  border-right: none;
+  padding: 1rem;
+
+ 
+}
+/* .hero-logos */ .hero-logo-instagram,.hero-logo-linkedin{
+ /*  display: flex; */
+ /*  flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  padding: .6rem;
+  margin: -1rem;
+  
+
+}
+.landing.landing_text  .ar {
+   background-color: aqua;
+}
+.landing_text span  {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ /*  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  color: #56e0b5;
+/*   color: #fff; */
+font-size: .9rem;
+margin: .3rem;
+/* padding: .8rem; */
+font-style: italic;
+font-weight: 400;
+/* background-color: #d15488; */
+/* transform: skew(-20deg, -20deg); */
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.landing_text span img{
+  border: #3de1f0 2px solid;
+  border-radius: 19px;
+  padding: .3rem;
+  
+}
+.landing_text h4{
+  background-color: hsl(171, 100%, 41%);
+    font-size: 1rem;
+    margin: .5rem;
+    padding: 2.8rem;
+    color: #4a4a4a;
+    /* color: #5bb9a8; */
+   /*  color: #635b5b; */
+    /*    color: #83c2a5; */
+    border: #ffffff 1px solid;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+ 
+ 
+
+.landing button {
+    /*  text-shadow: #FC0 1px 0 10px; */
+ /*    margin: .9rem; */
+  /*   margin-top: 1.3rem; */
+    
+    /* margin-bottom: .1rem; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    padding: .6rem;
+    font-size: .8rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color:#000 ;
+    color:  #3de1f0;
+    width: max-content;
+    border-radius: .5rem;
+    border:3px solid #56e0b5;
+    /*   border: #ffffff;  CAMBIAR COLOR DEL BORDE DEL BOTOn   */
+    clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+    transition: .2s;
+}
+.landing button :hover {
+  
+}
+
+
+
+@media (min-width: 767px) {
+  .landing {
+   
+   
+  }
+    .landing >div{
+     
+      display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+      padding: 9%;
+      height: 59vh;
+      text-align: center;
+    }
+    .landing_text{
+      flex-direction: row;
+     /*  align-items: center; */
+     /*  justify-content: center; */
+      /* text-align: center; */
+     
+    }
+    .landing .landing_text h1{
+     /*  display: flex; */
+     /*  flex-direction: row; */
+     /*  align-items: center; */
+     /*  justify-content: center; */
+      font-size: 4.9rem;
+      text-align: center;
+    }
+    .landing .landing_text h1>span{
+      font-size: 1.3rem;
+      gap: 1.9rem;
+    }
+    .landing_text span img{
+      width: 60px;
+      padding: .7rem;
+      border-radius: 29px;
+    }
+    .landing_text h4  {
+   
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.2rem;
+    padding: 2.2rem;
+     
+    }
+    .hero-logos {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      scale: .8;
+     
+     
+     
+     
+    }
+    .landing button {
+      text-align: center;
+      font-size: .9rem;
+      font-style: italic;
+      font-weight: bold;
+      letter-spacing: .9px;
+    }
+   /*  .landing_text.tex_btn { */
+   /*   */
+   /*    border: #ffffff 8px solid; */
+   /*    text-align: center; */
+   /*  } */
+   
+}
+/* #5cb686 */
